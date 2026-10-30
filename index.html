@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BIKERS GARAGE | New Year Sale 2026 - Up to 60% OFF Spare Parts & Tools</title>
+  <meta name="description" content="Upgrade your ride with BIKERS GARAGE New Year Sale 2026. Up to 60% OFF on high-performance bike spares, tools, and touring gadgets. Free shipping nationwide!">
+  
+  <!-- Google Fonts & FontAwesome -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Rajdhani:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Announcement Bar -->
+  <div class="announcement-bar">
+    🎉 NEW YEAR SPECIAL SALE 2026! USE CODE <strong>"NY2026"</strong> FOR EXTRA 10% OFF | FREE NATIONWIDE SHIPPING OVER ₹1,999!
+  </div>
+
+  <!-- Section 1: Navigation Bar -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#" class="brand-logo">
+        <i class="fa-solid fa-screwdriver-wrench"></i> BIKERS <span>GARAGE</span>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#offers" class="nav-link">Offers</a>
+        <a href="#collections" class="nav-link">Spares & Tools</a>
+        <a href="#products" class="nav-link">New Arrivals</a>
+        <a href="#why-us" class="nav-link">Why Us</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <div class="search-box">
+          <input type="text" id="search-input" placeholder="Search spares, tools...">
+          <button id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        
+        <a href="#" class="icon-btn" id="wishlist-btn" title="Wishlist">
+          <i class="fa-regular fa-heart"></i>
+          <span class="badge" id="wishlist-count">0</span>
+        </a>
+
+        <a href="#" class="icon-btn" id="cart-btn" title="Shopping Cart">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span class="badge" id="cart-count">0</span>
+        </a>
+
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Section 2: Hero Banner -->
+    <section class="hero" id="home">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-badge">🎆 NEW YEAR SALE 2026</div>
+          <h1 class="hero-title">NEW YEAR WITH <span>FRESH BIKE!</span></h1>
+          <p class="hero-subheading">Discover high-performance spares, touring kits, and precision workshop tools with BIKERS GARAGE.</p>
+          <div class="offer-tag">UP TO <span>60% OFF</span></div>
+          <div class="hero-buttons">
+            <a href="#products" class="btn btn-primary"><i class="fa-solid fa-bolt"></i> Shop Now</a>
+            <a href="#collections" class="btn btn-secondary">Explore Collection</a>
+          </div>
+        </div>
+        <div class="hero-image-wrapper">
+          <img src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1000&q=80" alt="Superbike Rider in Gear" class="hero-img">
+          <div class="festive-glow"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Special Promotional Offers -->
+    <section class="section offers-section" id="offers">
+      <div class="container">
+        <div class="section-title">
+          <h2>Festive Special Offers</h2>
+          <p>Unbeatable discounts on essential motorcycle gear and tools</p>
+        </div>
+        <div class="offers-grid">
+          <div class="offer-card card-purple">
+            <div class="offer-content">
+              <span class="disc-label">FLAT 30% OFF</span>
+              <h3>Performance Spares</h3>
+              <p>Engine oils, brake pads, chain kits & filters</p>
+              <a href="#products" class="btn btn-sm">Claim Offer <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <i class="fa-solid fa-gears offer-bg-icon"></i>
+          </div>
+
+          <div class="offer-card card-gold">
+            <div class="offer-content">
+              <span class="disc-label">FLAT 40% OFF</span>
+              <h3>Touring & Luggage</h3>
+              <p>Saddlebags, GPS mounts & phone holders</p>
+              <a href="#products" class="btn btn-sm">Claim Offer <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <i class="fa-solid fa-compass offer-bg-icon"></i>
+          </div>
+
+          <div class="offer-card card-maroon">
+            <div class="offer-content">
+              <span class="disc-label">FLAT 50% OFF</span>
+              <h3>Workshop Tool Kits</h3>
+              <p>Torque wrenches, paddock stands & sockets</p>
+              <a href="#products" class="btn btn-sm">Claim Offer <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <i class="fa-solid fa-wrench offer-bg-icon"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: Featured Collections -->
+    <section class="section collections-section" id="collections">
+      <div class="container">
+        <div class="section-title">
+          <h2>Featured Categories</h2>
+          <p>Browse precision products engineered for every ride type</p>
+        </div>
+        <div class="collections-grid">
+          <div class="collection-card" onclick="filterCategory('spares')">
+            <img src="https://images.unsplash.com/photo-1486006920555-c77dce18193b?auto=format&fit=crop&w=600&q=80" alt="Motorcycle Engine Parts">
+            <div class="collection-overlay">
+              <h3>Auto Motors Spares</h3>
+              <span>Brakes, Chains & Engine Kits</span>
+            </div>
+          </div>
+
+          <div class="collection-card" onclick="filterCategory('tools')">
+            <img src="https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80" alt="Garage Mechanics Tools">
+            <div class="collection-overlay">
+              <h3>Precision Garage Tools</h3>
+              <span>Torque Sets & Lifts</span>
+            </div>
+          </div>
+
+          <div class="collection-card" onclick="filterCategory('touring')">
+            <img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80" alt="Motorcycle Touring Gear">
+            <div class="collection-overlay">
+              <h3>Touring Gadgets</h3>
+              <span>Fog Lights & Saddle Bags</span>
+            </div>
+          </div>
+
+          <div class="collection-card" onclick="filterCategory('accessories')">
+            <img src="https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=600&q=80" alt="Biker Riding Gear">
+            <div class="collection-overlay">
+              <h3>Rider Accessories</h3>
+              <span>Helmets, Gloves & Care Kits</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5: Trending Products -->
+    <section class="section products-section" id="products">
+      <div class="container">
+        <div class="section-title">
+          <h2>Trending Biker Gear & Spares</h2>
+          <p>Hand-picked festive specials with certified quality guarantees</p>
+        </div>
+
+        <div class="category-tabs">
+          <button class="tab-btn active" data-filter="all">All Products</button>
+          <button class="tab-btn" data-filter="spares">Spares</button>
+          <button class="tab-btn" data-filter="tools">Tools</button>
+          <button class="tab-btn" data-filter="touring">Touring</button>
+          <button class="tab-btn" data-filter="accessories">Accessories</button>
+        </div>
+
+        <div class="products-grid" id="products-grid">
+          <!-- Dynamically populated via JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 6: Countdown Timer -->
+    <section class="countdown-section">
+      <div class="container">
+        <div class="countdown-wrapper">
+          <h2>🎆 NEW YEAR SALE ENDS IN 🎆</h2>
+          <p>Hurry! Up to 60% OFF discounts end on November 8, 2026. Grab your spares before stocks empty!</p>
+          
+          <div class="timer-container" id="countdown">
+            <div class="time-box">
+              <span id="days">00</span>
+              <label>Days</label>
+            </div>
+            <div class="time-box">
+              <span id="hours">00</span>
+              <label>Hours</label>
+            </div>
+            <div class="time-box">
+              <span id="minutes">00</span>
+              <label>Minutes</label>
+            </div>
+            <div class="time-box">
+              <span id="seconds">00</span>
+              <label>Seconds</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 7: Why Choose Us -->
+    <section class="section why-us-section" id="why-us">
+      <div class="container">
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div>
+            <h3>Premium OEM Quality</h3>
+            <p>100% genuine motorcycle parts & lab-tested workshop tools.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon"><i class="fa-solid fa-tags"></i></div>
+            <h3>Affordable Prices</h3>
+            <p>Direct-from-manufacturer pricing with festive price match.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon"><i class="fa-solid fa-lock"></i></div>
+            <h3>Secure Shopping</h3>
+            <p>256-bit encrypted checkout & verified payment gateways.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon"><i class="fa-solid fa-rotate-left"></i></div>
+            <h3>30-Day Easy Returns</h3>
+            <p>No questions asked return & replacement guarantee.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 8: Customer Testimonials -->
+    <section class="section testimonials-section">
+      <div class="container">
+        <div class="section-title">
+          <h2>What Bikers Say</h2>
+          <p>Trusted by thousands of mechanics, touring enthusiasts, and daily riders</p>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+            <p>"Bought the Brembo brake pads and Motul engine oil during the sale. Shipping was lightning fast, and parts are 100% authentic!"</p>
+            <div class="user-info">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80" alt="Rohan Sharma">
+              <div>
+                <h4>Rohan Sharma</h4>
+                <span>KTM Duke 390 Rider</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+            <p>"The digital torque wrench and paddock stand set exceeded my expectations. Quality is top-tier for my DIY home garage work."</p>
+            <div class="user-info">
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&q=80" alt="Vikram Singh">
+              <div>
+                <h4>Vikram Singh</h4>
+                <span>Touring Enthusiast</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+            <p>"Got 40% OFF on waterproof saddlebags before my Ladakh ride. Exceptional build quality and waterproof stitching. Recommended!"</p>
+            <div class="user-info">
+              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80" alt="Ananya Patel">
+              <div>
+                <h4>Ananya Patel</h4>
+                <span>RE Himalayan Rider</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 9: Newsletter Subscription -->
+    <section class="section newsletter-section">
+      <div class="container">
+        <div class="newsletter-card">
+          <h2>Get Exclusive Biker Offers!</h2>
+          <p>Subscribe to our newsletter to unlock secret New Year promo codes and maintenance tips directly in your inbox.</p>
+          
+          <form id="newsletter-form" class="newsletter-form" novalidate>
+            <div class="input-group">
+              <input type="email" id="newsletter-email" placeholder="Enter your email address..." required>
+              <button type="submit" class="btn btn-primary">Subscribe <i class="fa-solid fa-paper-plane"></i></button>
+            </div>
+            <div id="newsletter-message" class="form-message"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Section 10: Footer -->
+  <footer class="footer" id="contact">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <a href="#" class="brand-logo footer-logo">
+          <i class="fa-solid fa-screwdriver-wrench"></i> BIKERS <span>GARAGE</span>
+        </a>
+        <p>Your one-stop destination for genuine motorcycle spares, professional garage tools, and high-performance touring gear. Ride harder, safer, and longer.</p>
+        <div class="social-links">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#offers">New Year Sale</a></li>
+          <li><a href="#collections">Spares & Tools</a></li>
+          <li><a href="#products">New Arrivals</a></li>
+          <li><a href="#why-us">Why Choose Us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Customer Care</h4>
+        <ul>
+          <li><a href="#">Order Tracking</a></li>
+          <li><a href="#">Shipping Policy</a></li>
+          <li><a href="#">Returns & Exchanges</a></li>
+          <li><a href="#">Warranty Claim</a></li>
+          <li><a href="#">FAQs</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Get In Touch</h4>
+        <ul class="contact-info">
+          <li><i class="fa-solid fa-location-dot"></i> Plot 42, Auto Hub Zone, Sector 18, New Delhi - 110001</li>
+          <li><i class="fa-solid fa-phone"></i> +91 98765 43210 / 011-2345678</li>
+          <li><i class="fa-solid fa-envelope"></i> support@bikersgarage.com</li>
+          <li><i class="fa-solid fa-clock"></i> Mon - Sat: 9:00 AM - 8:00 PM</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-flex">
+        <p>&copy; 2026 BIKERS GARAGE. All Rights Reserved. Designed for Biker Enthusiasts.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Security</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Slide-out Shopping Cart Drawer Modal -->
+  <div class="cart-drawer-overlay" id="cart-overlay"></div>
+  <div class="cart-drawer" id="cart-drawer">
+    <div class="cart-header">
+      <h3><i class="fa-solid fa-cart-shopping"></i> Your Shopping Cart</h3>
+      <button class="close-cart" id="close-cart">&times;</button>
+    </div>
+    <div class="cart-body" id="cart-items-container">
+      <!-- Dynamic cart items JS -->
+    </div>
+    <div class="cart-footer">
+      <div class="summary-line">
+        <span>Subtotal:</span>
+        <span id="cart-subtotal">₹0</span>
+      </div>
+      <div class="summary-line discount">
+        <span>New Year Offer (10% OFF):</span>
+        <span id="cart-discount">-₹0</span>
+      </div>
+      <div class="summary-line total">
+        <span>Total Payable:</span>
+        <span id="cart-total">₹0</span>
+      </div>
+      <button class="btn btn-primary btn-block" id="checkout-btn" onclick="handleCheckout()">Proceed to Checkout <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+  </div>
+
+  <!-- Toast Notification System -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- Back to top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
